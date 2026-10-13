@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/v1'; // ya jo bhi aapka backend URL ho
+const API_URL = 'https://notes-backent.vercel.app/api/v1'; // ya jo bhi aapka backend URL ho
 
 export const fetchNotesByFolder = async (folderName) => {
   try {
